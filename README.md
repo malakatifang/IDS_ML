@@ -116,12 +116,15 @@ Les performances des modèles ont été rigoureusement mesurées à l'aide des i
 
 ---
 
-##  Résultats
+##  Résultats et Comparaison des Modèles
 
-Après évaluation comparative sur les données de validation :
+Les modèles ont été évalués sur un ensemble multiclasse rééquilibré comprenant 23 types de trafics (sains et malveillants) :
 
-* La **Régression Logistique** a servi de point de départ (indiquant les limites des séparateurs linéaires avec un score AUC global de 0.61).
-* Le modèle **Random Forest** a démontré les meilleures performances globales (Précision, Rappel et AUC maximisés) et a été sélectionné comme modèle final pour l'IDS.
+| Modèle | Précision Globale (Accuracy) | Observations |
+| :--- | :---: | :--- |
+| **Régression Logistique** | **6.54 %** | Échec de convergence face à la non-linéarité et la multiplicité des classes. |
+| **Arbre de Décision** | **99.98 %** | Capture parfaite des règles logiques des signatures d'attaques. |
+| **Random Forest** | **99.99 %** | **Meilleur modèle.** Robustesse maximale et classification sans faute. |
 
 ---
 
