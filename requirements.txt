@@ -1,1 +1,9 @@
+# Bibliothèques de manipulation et visualisation des données
+pandas
+numpy
+matplotlib
+seaborn
 
+# Machine Learning et Équilibrage des classes
+scikit-learn
+imbalanced-learn
