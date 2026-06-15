@@ -77,7 +77,7 @@ Face au fort déséquilibre des classes du dataset NSL-KDD, l'algorithme **SMOTE
 
 ---
 
-## 📉 Visualisation des Données
+##  Visualisation des Données
 
 Plusieurs analyses graphiques ont été menées pour explorer le dataset :
 
